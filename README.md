@@ -20,7 +20,7 @@ Frontend: javascript
 
 Smart Contracts: Solidity (for lending, borrowing, and credit scoring)
 
-Blockchain: AIAchain
+Blockchain: XRPL_EVM_Sidechain_Devnet
 
 # Smart Contracts
 
@@ -61,17 +61,17 @@ npx hardhat compile
 
 **Deployment**
 
-To deploy the contracts on the AIAchain testnet, use the deployment script provided in the scripts directory:
+To deploy the contracts on the XRPL_EVM_Sidechain_Devnet, use the deployment script provided in the scripts directory:
 
-npx hardhat run ignition/modules/deploy.js --network AIATestnet
+npx hardhat run ignition/modules/deploy.js --network XRPL_EVM_Sidechain_Devnet
 
 Here are the deployed contract addresses for each contract:
 
-Lending Contract deployed at: 0x1d8c981FD95060A45b3Cea346DbF7b5b48f5CD36
+Lending Contract deployed at: 
 
-Repayment Contract deployed at: 0xf1979Ac32D086D1f3f3773fe0828d37729ed545f
+Repayment Contract deployed at: 
 
-Credit Score Contract deployed at: 0x2479eb1a719799D2956bB80551d9FA1aF46b0560
+Credit Score Contract deployed at: 
 
 
 
