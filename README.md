@@ -37,15 +37,15 @@ Maintains the credit scores of borrowers and updates scores based on repayment h
 
 **Prerequisites**
 
-Node.js
+- Node.js
 
-npm
+- npm
 
-Hardhat (for development and testing)
+- Hardhat (for development and testing)
 
 **Installation**
 
-Clone the repository:
+- Clone the repository:
 
 git clone https://github.com/Hackathonzx/decilend.git
 
@@ -53,25 +53,25 @@ cd deciLend
 
 **Install dependencies:**
 
-npm install
+- npm install
 
 **Compile the smart contracts:**
 
-npx hardhat compile
+- npx hardhat compile
 
-**Deployment**
+# Deployment
 
 To deploy the contracts on the XRPL_EVM_Sidechain_Devnet, use the deployment script provided in the scripts directory:
 
-npx hardhat run ignition/modules/deploy.js --network XRPL_EVM_Sidechain_Devnet
+- npx hardhat run ignition/modules/deploy.js --network XRPL_EVM_Sidechain_Devnet
 
 Here are the deployed contract addresses for each contract:
 
-Lending Contract deployed at: 0x2Fad953E1F524e6590EdF50BDA6FCB391Dd4Fd96
+1. Lending Contract deployed at: 0x2Fad953E1F524e6590EdF50BDA6FCB391Dd4Fd96
 
-Repayment Contract deployed at: 0x359451AC3C73827A7653C0Ab7D30243844a55447
+2. Repayment Contract deployed at: 0x359451AC3C73827A7653C0Ab7D30243844a55447
 
-Credit Score Contract deployed at: 0x069F92465a8795a06A28B1e85f320D57CE29Bc8F
+3. Credit Score Contract deployed at: 0x069F92465a8795a06A28B1e85f320D57CE29Bc8F
 
 # Verified contract
 1. Successfully verified contract Lending on the block explorer.
@@ -104,9 +104,7 @@ npx hardhat test
 
   4 passing (3s)
 
-  Verify your contracts:
-
-npx hardhat verify --network aiatestnet <contract-address>
+  
 
 # Contributing
 
