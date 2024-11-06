@@ -67,11 +67,21 @@ npx hardhat run ignition/modules/deploy.js --network XRPL_EVM_Sidechain_Devnet
 
 Here are the deployed contract addresses for each contract:
 
-Lending Contract deployed at: 
+Lending Contract deployed at: 0x2Fad953E1F524e6590EdF50BDA6FCB391Dd4Fd96
 
-Repayment Contract deployed at: 
+Repayment Contract deployed at: 0x359451AC3C73827A7653C0Ab7D30243844a55447
 
-Credit Score Contract deployed at: 
+Credit Score Contract deployed at: 0x069F92465a8795a06A28B1e85f320D57CE29Bc8F
+
+# Verified contract
+1. Successfully verified contract Lending on the block explorer.
+https://explorer.xrplevm.org/address/0x2Fad953E1F524e6590EdF50BDA6FCB391Dd4Fd96#code
+
+2. Successfully verified contract Repayment on the block explorer.
+https://explorer.xrplevm.org/address/0x359451AC3C73827A7653C0Ab7D30243844a55447#code
+
+3. Successfully verified contract CreditScore on the block explorer.
+https://explorer.xrplevm.org/address/0x069F92465a8795a06A28B1e85f320D57CE29Bc8F#code
 
 
 

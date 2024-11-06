@@ -14,23 +14,23 @@ module.exports = {
     },
   },
 
-  // sourcify: {
-  //   enabled: true
-  // }, 
+  sourcify: {
+    enabled: false
+  }, 
 
-  // etherscan: {
-  //   apiKey: {
-  //     'XRPL_EVM_Sidechain_Devnet': "void"
-  //   },
-  //   customChains: [
-  //     {
-  //       network: "XRPL_EVM_Sidechain_Devnet",
-  //       chainId: 1440002,
-  //       urls: {
-  //         apiURL: "https://explorer.xrplevm.org/api",
-  //         browserURL: "https://explorer.xrplevm.org/",
-  //       }
-  //     }
-  //   ]
-  // }
+  etherscan: {
+    apiKey: {
+      'XRPL_EVM_Sidechain_Devnet': "void"
+    },
+    customChains: [
+      {
+        network: "XRPL_EVM_Sidechain_Devnet",
+        chainId: 1440002,
+        urls: {
+          apiURL: "https://explorer.xrplevm.org/api",
+          browserURL: "https://explorer.xrplevm.org/",
+        }
+      }
+    ]
+  }
 };
